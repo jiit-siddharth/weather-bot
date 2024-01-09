@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const axios_1 = __importDefault(require("axios"));
 const grammy_1 = require("grammy");
-const apiKey = '39852f71534ad57fe439c90ebf67c2a4';
+const apiKey = '';
 const city = 'New Delhi';
 const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 let weatherData;
