@@ -2,7 +2,7 @@ import axios from 'axios'
 
 import { Bot } from 'grammy'
 
-const apiKey = '39852f71534ad57fe439c90ebf67c2a4'
+const apiKey = ''
 const city = 'New Delhi'
 
 const apiUrl = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
