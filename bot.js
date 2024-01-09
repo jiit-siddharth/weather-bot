@@ -23,7 +23,7 @@ function getdata() {
     });
     return weatherData;
 }
-const bot = new grammy_1.Bot('6464046474:AAEpBo7tIHVCcFVNkFy6TZaZklH9a1TQHZM');
+const bot = new grammy_1.Bot('');
 bot.on('message', (ctx) => {
     getdata();
     ctx.reply('Temp in Delhi-' + weatherData.main.temp);
